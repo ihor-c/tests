@@ -5,8 +5,8 @@ import { HttpService } from './http.service';
 
 describe('HttpService', () => {
 
-  let httpService: HttpService,
-    httpTestingController: HttpTestingController;
+  let httpService: HttpService;
+  let httpTestingController: HttpTestingController;
 
   beforeEach(() => {
     TestBed.configureTestingModule({

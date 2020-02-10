@@ -8,7 +8,7 @@ export class LogerService {
   constructor() { }
 
   public log( data ): void {
-    console.log(data)
+    console.log(data);
   }
 
 }

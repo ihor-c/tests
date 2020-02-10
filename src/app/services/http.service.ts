@@ -12,7 +12,7 @@ export class HttpService {
     private http: HttpClient
   ) { }
 
-  public getUsers () {
+  public getUsers() {
     return this.http.get(`${this.API_URL}/users`);
   }
 
